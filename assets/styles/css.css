@@ -43,6 +43,11 @@ p {
 .logo img {
     width: 50px;
     padding-right: 10px;
+    position: fixed;
+    top: 15px;
+}
+.logoText{
+    padding-left: 45px;
 }
 
 .logo> * {
@@ -99,8 +104,22 @@ p {
     right: 30px;
     top: 20px;
     width: 750px;
+    animation: animateCloud infinite 1.5s;
 }
 
+@keyframes animateCloud {
+    from { top : 17px }
+    17%  { top : 18px }
+    20%  { top : 19px }
+    37%  { top : 20px }
+    40%  { top :  21px}
+    57%  { top : 22px }
+    60%  { top : 21px }
+    77%  { top : 20px }
+    80%  { top : 19px }
+    97%  { top : 18px}
+    to   { top : 17px }
+}
 .images {
     width: 98vw;
     margin: 10% auto;
@@ -143,6 +162,7 @@ p {
     flex-wrap: wrap;
     align-content: space-between;
     line-height: 300%;
+    padding: 3%;
     
 }
 
