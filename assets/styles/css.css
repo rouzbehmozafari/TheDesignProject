@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+/* Farben: #0b0c17 / #ff3571 / #dddddd / #3C30FF / #FFF / #000 */
+
+
+
+
+/* General Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+/* Header */
+
+
+/* Main */
+.logo {
+    width: 350px;
+    padding: 1%;
+    /* display: flex; */
+}
+
+.logo img {
+    width: 50px;
+    padding-right: 10px;
+}
+
+.logo> * {
+    display: inline-block;
+}
+
+.logo h4 {
+    font-size: 20px;
+}
+.logo p {
+    font-size: 15px;
+}
+
+
+
+.firstView {
+    background-image: url('../images/ilustracion1.png') ;
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.firstView article {
+    padding: 10% 0 10% 10%;
+    width: 700px;
+}
+
+.firstView p {
+    padding-top: 2%;
+    
+}
+
+.firstView article p::after {
+    background-image: url('../images/rocket.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    content: "";
+    display: inline-block;
+}
+
+.scroll {
+    color: #ff3571 ;
+    font-size: 15px;
+    padding-left: 10%;
+    font-weight: 400;
+}
+
+.people {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 750px;
+}
+
+.images {
+    width: 98vw;
+    margin: 10% auto;
+    display: inline-block;
+}
+
+.texts {
+    padding: 10%;
+}
+
+
+.idea::after {
+    background-image: url('../images/idea.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 65px;
+    content: "";
+    display: inline-block;
+}
+
+.twoh1s {
+    display: flex;
+}
+
+.twoh1s p {
+    width: 700px;
+    padding-left: 10%;
+}
+
+.afterh1 {
+    margin: 10% auto 10% 0;
+    width: 700px;
+}
+
+.fourTexts {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    line-height: 300%;
+    
+}
+
+.fourTexts p {
+    font-weight: 300;
+    line-height: 170%;
+}
+.fourTexts h3 {
+    padding-top: 10%;
+}
+
+.fourTexts article {
+    width: 400px;  
+    position: relative;
+}
+
+.fourTexts img {
+    width: 25px;
+    position: absolute;
+    left: -40px;
+    top: 50px;
+}
+
+.ready {
+    text-align: center;
+    margin: 10% 20%;
+}
+
+.ready h1{
+    padding-bottom: 5%;
+}
+.start {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10%;
+    justify-content: space-between;
+}
+
+.start>* {
+    width: 500px;
+    margin-bottom: 15%;
+}
+
+.start h1{
+    padding-bottom: 30px;
+    opacity: .1;
+}
+
+.start div img ,.start div h3 {
+    padding-bottom: 4%;
+}
+
+
+
+/* .fourTexts h3::before {
+    background-image: url('../images/idea.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 65px;
+    content: "";
+    display: inline-block;
+} */
+
+
+/* Footer */
+
+.second {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.second h1 {
+    font-size: 35px;
+}
+
+footer {
+    text-align: center;
+}
+
+form {
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+form > *{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+input {
+    padding-left: 12%;
+    padding-right: 12%;
+    box-shadow: 5px 5px 19px 5px rgba(0,0,0,0.18);
+}
+button {
+    background-color: #ff3571;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+
+    
+}
+
+input , button {
+    display: block;
+    margin: 2% auto;
+    border: none;
+
+}
+
+
+.confirmed {
+    box-shadow: 5px 5px 19px 5px rgba(0,0,0,0.18);
+    padding: 50px;
+}
+
+footer  a{
+    display: block;
+    padding: 1%;
+    margin-top: 20px;
+    background-color:#3C30FF  ;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
